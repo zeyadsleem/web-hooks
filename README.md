@@ -1,6 +1,6 @@
 # Supermarket Polling Example
 
-This project demonstrates short polling, long polling, and WebSocket implementations using Node.js and Express.
+This project demonstrates short polling, long polling, WebSocket, and Webhook implementations using Node.js and Express.
 
 ## Files
 
@@ -10,6 +10,8 @@ This project demonstrates short polling, long polling, and WebSocket implementat
 - `supermarket-longpoll.js` - Client that waits for response (long polling)
 - `delivery-ws.js` - WebSocket server that pushes updates to connected clients
 - `supermarket-ws.js` - WebSocket client that maintains open connection
+- `delivery-webhook.js` - Server that sends webhook when status changes
+- `supermarket-webhook.js` - Webhook endpoint that receives status updates
 
 ## Usage
 
